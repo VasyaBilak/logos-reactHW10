@@ -23,4 +23,3 @@ export const getCommentsThunk = () => (dispatch) => {
 export const getTodosThunk = () => (dispatch) => {
     PostServices.getTodos(dispatch);
 }
-
