@@ -24,7 +24,3 @@ export const getTodosThunk = () => (dispatch) => {
     PostServices.getTodos(dispatch);
 }
 
-export const handleCommentClickThunk = (postId, setPost, setShowPost) => (dispatch) => {
-        setPost(postId.toString());
-        setShowPost(true);
-}
